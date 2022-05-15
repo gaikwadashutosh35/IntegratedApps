@@ -1,0 +1,386 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <title>All Apps</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="banner"></div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  TV
+                </a>
+                <!-- <div class="sublink-container slide-up">
+                    <a href="http://">Star Plus</a>
+                    <a href="http://">Zee Marathi</a>
+                    <a href="http://">Sony</a> 
+                  </div> -->
+
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Shows
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  News
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Sports
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="Cricket.html">Cricket</a>
+                  </li>
+                  <li><a class="dropdown-item" href="">Football</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="hotstar-shows">
+        <h2><span>Apps</span></h2>
+        <!-- Flickity HTML init -->
+        <div class="carousel" data-flickity='{ "wrapAround": true }'>
+          <!-- <div class="carousel" data-flickity='{ "groupCells": true }'> -->
+          <div class="carousel-cell">
+            <a target="blank" href="https://www.hotstar.com/in"
+              ><img
+                class="img-responsive"
+                src="Images/disney-hotstar.png"
+                alt=""
+            /></a>
+          </div>
+          <div class="carousel-cell">
+            <a target="blank" href="https://www.zee5.com/"
+              ><img class="img-responsive" src="Images/zee5-logo.png" alt=""
+            /></a>
+          </div>
+          <div class="carousel-cell">
+            <a
+              target="blank"
+              href="https://www.primevideo.com/?ref_=av_auth_return_redir"
+              ><img
+                class="img-responsive"
+                src="Images/amazon prime video-2.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="carousel-cell">
+            <a
+              target="blank"
+              href="https://www.sonyliv.com/custompage/premium-35223"
+              ><img class="img-responsive" src="Images/sony-liv.png" alt=""
+            /></a>
+          </div>
+          <div class="carousel-cell">
+            <a target="blank" href="https://www.discoveryplus.in/"
+              ><img
+                class="img-responsive-discovery_plus"
+                src="Images/discovery-plus-logo.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="hotstar-shows">
+        <h2><span>TV SHOWS</span></h2>
+        <!-- Flickity HTML init -->
+        <div class="carousel" data-flickity='{ "wrapAround": true }'>
+          <!-- <div class="carousel" data-flickity='{ "groupCells": true }'> -->
+          <div class="carousel-cell1">
+            <a
+              target="blank"
+              href="https://www.sonyliv.com/shows/taarak-mehta-ka-ooltah-chashmah-1700000084"
+              ><img
+                class="img-responsive1"
+                src="https://res.cloudinary.com/Sony-liv/image/fetch/c_fill,e_contrast:30,f_auto,fl_lossy,h_494,q_auto:low,w_344/e_brightness:10/https://origin-staticv2.sonyliv.com/portrait_thumb/TMKOC_Portrait_Thumb_080322.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="carousel-cell1">
+            <a
+              target="blank"
+              href="https://www.sonyliv.com/shows/maddam-sir-1700000181"
+              ><img
+                class="img-responsive1"
+                src="https://res.cloudinary.com/Sony-liv/image/fetch/c_fill,e_contrast:30,f_auto,fl_lossy,h_494,q_auto:low,w_344/e_brightness:10/https://origin-staticv2.sonyliv.com/portrait_thumb/6134492789001.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="carousel-cell1">
+            <a
+              target="blank"
+              href="https://www.sonyliv.com/shows/bade-achhe-lagte-hain-1700000190"
+              ><img
+                class="img-responsive1"
+                src="https://res.cloudinary.com/Sony-liv/image/fetch/c_fill,e_contrast:30,f_auto,fl_lossy,h_494,q_auto:low,w_344/e_brightness:10/https://origin-staticv2.sonyliv.com/portrait_thumb/BALH_S2_Portrait_Thumb.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="carousel-cell1">
+            <a
+              target="blank"
+              href="https://www.sonyliv.com/shows/wagle-ki-duniya-1700000669"
+              ><img
+                class="img-responsive1"
+                src="https://res.cloudinary.com/Sony-liv/image/fetch/c_fill,e_contrast:30,f_auto,fl_lossy,h_494,q_auto:low,w_344/e_brightness:10/https://origin-staticv2.sonyliv.com/portrait_thumb/WaglekiDuniya_Portrait_Thumb.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="carousel-cell1">
+            <a
+              target="blank"
+              href="https://www.sonyliv.com/shows/dharm-yoddha-garud-1700000737"
+              ><img
+                class="img-responsive1"
+                src="https://res.cloudinary.com/Sony-liv/image/fetch/c_fill,e_contrast:30,f_auto,fl_lossy,h_494,q_auto:low,w_344/e_brightness:10/https://origin-staticv2.sonyliv.com/portrait_thumb/DYG2_Portrait_Thumb.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="carousel-cell1">
+            <a
+              target="blank"
+              href="https://www.sonyliv.com/shows/punyashlok-ahilya-bai-1700000651"
+              ><img
+                class="img-responsive1"
+                src="https://res.cloudinary.com/Sony-liv/image/fetch/c_fill,e_contrast:30,f_auto,fl_lossy,h_494,q_auto:low,w_344/e_brightness:10/https://origin-staticv2.sonyliv.com/portrait_thumb/PunyashlokAhilyabai2_Portrait_Thumb.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="carousel-cell1">
+            <a
+              target="blank"
+              href="https://www.sonyliv.com/shows/ziddi-dil-maane-na-1700000783"
+              ><img
+                class="img-responsive1"
+                src="https://res.cloudinary.com/Sony-liv/image/fetch/c_fill,e_contrast:30,f_auto,fl_lossy,h_494,q_auto:low,w_344/e_brightness:10/https://origin-staticv2.sonyliv.com/portrait_thumb/ZiddiDilMaaneNa_Portrait_Thumb.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="carousel-cell1">
+            <a
+              target="blank"
+              href="https://www.sonyliv.com/shows/the-kapil-sharma-show-1700000083"
+              ><img
+                class="img-responsive1"
+                src="https://res.cloudinary.com/Sony-liv/image/fetch/c_fill,e_contrast:30,f_auto,fl_lossy,h_494,q_auto:low,w_344/e_brightness:10/https://origin-staticv2.sonyliv.com/portrait_thumb/TKSS_2021_1_Portrait_Thumb_Fizz.jpg"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="hotstar-shows">
+        <h2><span>TV SHOWS</span></h2>
+        <!-- Flickity HTML init -->
+        <div class="carousel" data-flickity='{ "wrapAround": true }'>
+          <!-- <div class="carousel" data-flickity='{ "groupCells": true }'> -->
+          <div class="carousel-cell2">
+            <a
+              target="blank"
+              href="https://www.hotstar.com/in/tv/anupama/1260022017"
+              ><img
+                class="img-responsive2"
+                src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/8774/1028774-v-85c7d8f07559"
+                alt=""
+            /></a>
+          </div>
+          <div class="carousel-cell2">
+            <a target="blank" href="https://www.hotstar.com/in/tv/mahadev/12"
+              ><img
+                class="img-responsive2"
+                src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/2876/862876-v"
+                alt=""
+            /></a>
+          </div>
+          <div class="carousel-cell2">
+            <a
+              target="blank"
+              href="https://www.hotstar.com/in/tv/anupama-namaste-america/1260097964"
+              ><img
+                class="img-responsive2"
+                src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/5568/1215568-v-bbd7c2180a72"
+                alt=""
+            /></a>
+          </div>
+          <div class="carousel-cell2">
+            <a
+              target="blank"
+              href="https://www.hotstar.com/in/tv/yeh-rishta/586"
+              ><img
+                class="img-responsive2"
+                src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/4516/1074516-v-2f4f07b1e4ec"
+                alt=""
+            /></a>
+          </div>
+          <div class="carousel-cell2">
+            <a
+              target="blank"
+              href="https://www.hotstar.com/in/tv/imlie/1260048110"
+              ><img
+                class="img-responsive2"
+                src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3783/1103783-v-464810772787"
+                alt=""
+            /></a>
+          </div>
+          <div class="carousel-cell2">
+            <a
+              target="blank"
+              href="https://www.hotstar.com/in/tv/pandya-store/1260053090"
+              ><img
+                class="img-responsive2"
+                src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1041/951041-v"
+                alt=""
+            /></a>
+          </div>
+          <div class="carousel-cell2">
+            <a
+              target="blank"
+              href="https://www.hotstar.com/in/tv/saathiya-2/693"
+              ><img
+                class="img-responsive2"
+                src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1309/1111309-v-6db51de5535f"
+                alt=""
+            /></a>
+          </div>
+          <div class="carousel-cell2">
+            <a
+              target="blank"
+              href="https://www.hotstar.com/in/tv/yeh-rishta/586"
+              ><img
+                class="img-responsive2"
+                src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/4516/1074516-v-2f4f07b1e4ec"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <a href="#">FAQ</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Refund Policy</a>
+      <a class="flex-item-right" href="#">&copy; 2022 </a>
+    </footer>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
